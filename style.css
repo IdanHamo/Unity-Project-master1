@@ -1,0 +1,332 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#NavBar {
+  width: 100vw;
+  height: 85px;
+  background-image: url(./photos/top-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+#NavBar #NavBar-Image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-padding-start: 39px;
+          padding-inline-start: 39px;
+  position: relative;
+}
+
+#NavBar #NavBar-Image #logo-img:hover {
+  opacity: 0.7;
+}
+
+#NavBar #NavBar-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+#NavBar #NavBar-links .link {
+  display: inline-block;
+  height: 84px;
+  text-decoration: none;
+}
+
+#NavBar #NavBar-links .link .Navbar-Items {
+  -webkit-padding-before: 20px;
+          padding-block-start: 20px;
+  -webkit-padding-after: 20px;
+          padding-block-end: 20px;
+  -webkit-padding-start: 16px;
+          padding-inline-start: 16px;
+  -webkit-padding-end: 16px;
+          padding-inline-end: 16px;
+  height: 43px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-size: 0.95rem;
+  font-weight: 700;
+  font-style: normal;
+  font-family: Barlow, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  letter-spacing: -0.5px;
+}
+
+#NavBar #NavBar-links .link .Navbar-Items::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#NavBar #NavBar-links .link .Navbar-Items:hover {
+  color: #df204d;
+  border-bottom: 3px solid #df204d;
+}
+
+#NavBar #NavBar-links .link .main-link {
+  -webkit-box-shadow: 0px -3px 0px 3px;
+          box-shadow: 0px -3px 0px 3px;
+  color: #df204d;
+}
+
+#NavBar #login-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  -webkit-padding-end: 43px;
+          padding-inline-end: 43px;
+}
+
+#NavBar #login-div .link {
+  display: inline-block;
+  height: 84px;
+  text-decoration: none;
+}
+
+#NavBar #login-div .link .Navbar-Items {
+  height: 43px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-size: 0.95rem;
+  font-weight: 700;
+  font-style: normal;
+  font-family: Barlow, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  -webkit-padding-before: 20px;
+          padding-block-start: 20px;
+  -webkit-padding-after: 20px;
+          padding-block-end: 20px;
+  -webkit-padding-start: 16px;
+          padding-inline-start: 16px;
+  -webkit-padding-end: 16px;
+          padding-inline-end: 16px;
+}
+
+#NavBar #login-div .link .Navbar-Items:hover {
+  color: #df204d;
+}
+
+.section1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.4))), url(./photos/wingsBackground.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(./photos/wingsBackground.jpg);
+  background-blend-mode: darken;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-padding-before: 192px;
+          padding-block-start: 192px;
+  -webkit-padding-after: 192px;
+          padding-block-end: 192px;
+  position: relative;
+}
+
+.section1 .inner-section {
+  width: 70%;
+}
+
+.section1 .inner-section .container h2 {
+  color: #df204d;
+  font-size: 1.2rem;
+  font-family: Barlow, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 0;
+}
+
+.section1 .inner-section .container h3 {
+  margin-top: 15px;
+  color: white;
+  font-size: 5rem;
+  font-family: Barlow, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 0;
+}
+
+.section1 .inner-section .some-info {
+  border-left: 2px solid gray;
+  -webkit-padding-start: 15px;
+          padding-inline-start: 15px;
+}
+
+.section1 .inner-section .some-info p {
+  font-family: Barlow, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: white;
+  font-size: 1rem;
+}
+
+.section1 .inner-section .normal-links {
+  -webkit-margin-before: 50px;
+          margin-block-start: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.section1 .inner-section .normal-links .normal-links-a {
+  font-family: Barlow, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  padding: 15px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  -webkit-margin-start: 20px;
+          margin-inline-start: 20px;
+}
+
+.section1 .inner-section .normal-links #link1 {
+  background-color: #df204d;
+  color: white;
+}
+
+.section1 .inner-section .normal-links #link1:hover {
+  background-color: #ff003c;
+}
+
+.section1 .inner-section .normal-links #link2 {
+  background-color: white;
+  color: #df204d;
+}
+
+.section1 .inner-section .normal-links #link2:hover {
+  background-color: #b9b9b9;
+}
+
+.section1 .inner-section .normal-links .normal-links-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-margin-end: 15px;
+          margin-inline-end: 15px;
+  -webkit-margin-start: 15px;
+          margin-inline-start: 15px;
+}
+
+.section1 .inner-section .normal-links .normal-links-icon .icon {
+  display: inline-block;
+  border: 1px solid gray;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.section1 .inner-section .normal-links .normal-links-icon .icon img {
+  width: 40px;
+  height: 40px;
+}
+
+.discord {
+  position: absolute;
+  right: 0;
+  bottom: clamp(20px, 5vw, 60px);
+  width: 250px;
+  height: 72px;
+  background-color: #6e3fda;
+}
+
+.discord:hover {
+  -webkit-animation: width 0.5s linear forwards;
+          animation: width 0.5s linear forwards;
+}
+
+.discord .discord-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  height: 100%;
+  -webkit-padding-start: 15px;
+          padding-inline-start: 15px;
+  -webkit-margin-start: 10px;
+          margin-inline-start: 10px;
+  -webkit-margin-end: 10px;
+          margin-inline-end: 10px;
+}
+
+.discord .discord-img .fa-discord {
+  color: white;
+}
+
+.discord .discord-img p {
+  -webkit-padding-start: 10px;
+          padding-inline-start: 10px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: Barlow, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: white;
+}
+
+@-webkit-keyframes width {
+  100% {
+    width: 260px;
+  }
+}
+
+@keyframes width {
+  100% {
+    width: 260px;
+  }
+}
+
+@media (max-width: 1500px) {
+  h3 {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
