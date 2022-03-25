@@ -1,7 +1,6 @@
 .section1 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
     url(./photos/wingsBackground.jpg);
-  background-blend-mode: darken;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -144,5 +143,81 @@
 @keyframes width {
   100% {
     width: 260px;
+  }
+}
+
+@media screen and(max-width: 1010px) {
+  #main-header {
+    font-size: 3rem;
+  }
+  .section1 {
+    padding-block-start: 140px;
+    padding-block-end: 140px;
+  }
+}
+
+@media screen and(max-width: 662px) {
+  #main-header {
+    font-size: 2rem;
+  }
+  .section1 {
+    padding-block-start: 100px;
+    padding-block-end: 120px;
+
+    .inner-section {
+      width: 85%;
+    }
+  }
+}
+
+@media screen and (max-width: 545px) {
+  #main-header {
+    font-size: 1.5rem;
+  }
+  .section1 {
+    padding-block-start: 100px;
+    padding-block-end: 120px;
+
+    .inner-section {
+      width: 85%;
+      .container h2 {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .normal-links {
+    display: block;
+
+    .normal-links-a {
+      display: block;
+      text-align: center;
+      margin-block-start: 20px;
+      width: 100%;
+      padding: 15px;
+      border: 1px solid gray;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-inline-start: 20px;
+    }
+    .normal-links-icon {
+      display: block;
+      margin-inline-end: 15px;
+      margin-inline-start: 15px;
+      .icon {
+        display: block;
+        border: 1px solid gray;
+        border-radius: 50%;
+
+        width: 40px;
+        height: 40px;
+
+        img {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
   }
 }

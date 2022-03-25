@@ -148,7 +148,6 @@ body {
 .section1 {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.4))), url(./photos/wingsBackground.jpg);
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(./photos/wingsBackground.jpg);
-  background-blend-mode: darken;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -321,6 +320,86 @@ body {
 @keyframes width {
   100% {
     width: 260px;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  #main-header {
+    font-size: 3rem;
+  }
+  .section1 {
+    -webkit-padding-before: 140px;
+            padding-block-start: 140px;
+    -webkit-padding-after: 140px;
+            padding-block-end: 140px;
+  }
+}
+
+@media screen and (max-width: 662px) {
+  #main-header {
+    font-size: 2rem;
+  }
+  .section1 {
+    -webkit-padding-before: 100px;
+            padding-block-start: 100px;
+    -webkit-padding-after: 120px;
+            padding-block-end: 120px;
+  }
+  .section1 .inner-section {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  #main-header {
+    font-size: 1.5rem;
+  }
+  .section1 {
+    -webkit-padding-before: 100px;
+            padding-block-start: 100px;
+    -webkit-padding-after: 120px;
+            padding-block-end: 120px;
+  }
+  .section1 .inner-section {
+    width: 85%;
+  }
+  .section1 .inner-section .container h2 {
+    font-size: 1rem;
+  }
+  .normal-links {
+    display: block;
+  }
+  .normal-links .normal-links-a {
+    display: block;
+    text-align: center;
+    -webkit-margin-before: 20px;
+            margin-block-start: 20px;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    -webkit-margin-start: 20px;
+            margin-inline-start: 20px;
+  }
+  .normal-links .normal-links-icon {
+    display: block;
+    -webkit-margin-end: 15px;
+            margin-inline-end: 15px;
+    -webkit-margin-start: 15px;
+            margin-inline-start: 15px;
+  }
+  .normal-links .normal-links-icon .icon {
+    display: block;
+    border: 1px solid gray;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  .normal-links .normal-links-icon .icon img {
+    width: 40px;
+    height: 40px;
   }
 }
 
